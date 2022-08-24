@@ -1,0 +1,13 @@
+@include footer{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    text-align: center;
+    background-color: #212529;
+}
+
+footer{
+    @include footer
+}

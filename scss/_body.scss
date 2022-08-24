@@ -1,0 +1,9 @@
+@include body{
+    background-color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+}
+
+body{
+    @include body
+}
